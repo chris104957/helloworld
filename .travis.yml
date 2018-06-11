@@ -3,12 +3,9 @@ language: python
 python:
   - "3.6"
 
-install:
+script:
   - git clone https://github.com/chris104957/helloworld.git
   - cd helloworld
-
-script:
-  - python setup.py sdist
 
 deploy:
   provider: pypi
