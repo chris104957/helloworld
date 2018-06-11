@@ -7,11 +7,11 @@ install:
   - git clone https://github.com/chris104957/helloworld.git
   - cd helloworld
   - pip install twine
-  - python setup.py sdist
 
-script:
-  - twine upload dist/*
-
-
+deploy:
+  provider: pypi
+#  user: "christopherdavies553@gmail.com"
+#  password: "C#d14095"
+#  server: https://api.python-private-package-index.com/63cdQSDO/
 
 
