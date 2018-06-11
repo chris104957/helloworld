@@ -8,7 +8,7 @@ before_install:
   - cd helloworld
 
 install:
-  - python setup.py sdist --quiet
+  - python setup.py sdist
 
 deploy:
   provider: pypi
