@@ -3,14 +3,15 @@ language: python
 python:
   - "3.6"
 
-script:
+install:
   - git clone https://github.com/chris104957/helloworld.git
   - cd helloworld
+  - pip install twine
+  - python setup.py sdist
 
-deploy:
-  provider: pypi
-  user: "christopherdavies553%40gmail.com"
-  password: "C#d14095"
-  server: https://api.python-private-package-index.com/63cdQSDO/
+script:
+  - twine upload dist/*
+
+
 
 
