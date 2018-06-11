@@ -7,7 +7,7 @@ before_install:
   - git clone https://github.com/chris104957/helloworld.git
   - cd helloworld
 
-install:
+script:
   - python setup.py sdist
 
 deploy:
