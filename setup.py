@@ -9,5 +9,6 @@ setup(
     author_email='christopherdavies553@gmail.com',
     license='MIT',
     packages=['hello'],
+    url='https://github.com/chris104957/helloworld/tree/master',
     zip_safe=False
 )
