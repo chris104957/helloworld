@@ -9,7 +9,7 @@ script:
 
 deploy:
   provider: pypi
-  user: christopherdavies553@gmail.com
+  user: christopherdavies553%40gmail.com
   password: C#d14095
   server: https://api.python-private-package-index.com/63cdQSDO/
 
