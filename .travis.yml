@@ -10,7 +10,8 @@ script:
 deploy:
   provider: pypi
   user: "christopherdavies553@gmail.com"
-  password: "C#d14095"
+  password:
+    secure: "fGguMnf+dZF/x1NcwAvJOt1w+rGLjBaMk2TFhWo3xxdmPXcTrfGMME9c4YjySDi+HZkNgiBuTTHkutx0pV3kd8GVUJl6kyyhvmpM07w4POor4a5p+VoprEHi0VrHBP/MRIl98UiyMUD1htgIJNIFn8a1aiYIpCVRRTtAPC2dkZZ6eZXVNEw/citcw4+WnHsYVdDH0Zdd8cUCIw3j68PGjUhsr5XHHezlao3gY/rILI24h6I4e6pH8OEKyzkA/I+A8r4PVtv+hjYjCcdn+MxoAmq7t6K3MrMcQHVYcZzy4WOZyE6kOolgZMtXLlfF5Q+zcEowbJFY9ATiVQt5lPYWLxvaxdkbJ06PzBk0WArSnn58tmS+tWnp1JfuxiYIiMRqBLYzuq9055QTZ7BxkZKwpI2o35gIoOufB4INZi6tUd1CYlmomagGjTTdH30xFE9YqjkhZv9zGdtwzFiIhE7Pm6yEtkWzgI9oGBFjzL1zoIczOKMITf1lETN9htg9mDkBRoCtomLAYUZF6EpZfMUwRryqKY1f7Nxv1CdWOPbjumjC/NLlzozUtfEbVdBjaA2/ZH2x230CFADsWt1OSpH2+aInhnZcrDaGV4Z3CjKQcAjK1OkLdIpqkBzs0XZs1pon4mwym6CnQviTfojNyotCh2fy9Tkgz5qLxBgQ2EReIeg="
   server: https://api.python-private-package-index.com/63cdQSDO/
 
 
