@@ -3,6 +3,10 @@ language: python
 python:
   - "3.6"
 
+before_install:
+  - git clone https://github.com/chris104957/helloworld.git
+  - cd helloworld
+
 install:
   - python setup.py sdist
 
@@ -11,6 +15,7 @@ deploy:
   user: "christopherdavies553@gmail.com"
   password:
     secure: "sTWxqASixYMgoZ5eQ9nP0YwujtJtCIF/1+BVu8yGy4W+ouNyI8nr/lUbKoO552JH54OpRGq0EP6p5GDjPDylFRRbpSKpfWDd8gsvIzbQFaMyKUI3ZgiTpK4dbpmO2wxpn18InP50w8B2aonWdFGPobWX04cMtCZ3KpDE7jip1FXu/7gXzYsRJcPJ0fyxR3kloliLM9ZWMeUuPmNLPi3XjvEGv5Ftt8kOeH7ojYKWY/f7lGp3cxr0eHmpn5wtchXHDj/K6ic7K/beCwOKf2zyoVbUfy1A0esjciuCGiUI6sIjM22Camm5iuJlo31RD4FAkGhAhWHFjcyG4uyOy4m4AXz5I9s5WsbkboYt2o7ELLZ9wAfEXiKPRomKP1WmUqJqLxQ2qjPlhU580XTNx72F05cjSLCGsqce1JLjSaUf7AlYo+aXlsU8KoAOrpqz1TC1VVSsO9V/mMAGikVAcQtmnhVC4XhZqdF1J9B9cjF3ypL1qKrKI5OnMf60kwokjKNTdPj7Me9D1qhU70DBxCamP3H8J0rZISiG3cV+A6UBe3emk6cxisU3vfr9qpVzIrt7Hpy6GdgylkXyAFCmRwTdzPTGhirpXHS11lnqsJIDy2Ww1M/s1LEhTC3R7OwyWRpYF8IiyT3oX8QRg4ck7OMzmxznhJSIEK5CJ389I31Jj+8="
+  server: https://api.python-private-package-index.com/63cdQSDO/
 
 
 
